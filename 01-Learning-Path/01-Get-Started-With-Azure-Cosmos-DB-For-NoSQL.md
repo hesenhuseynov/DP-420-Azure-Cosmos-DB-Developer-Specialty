@@ -102,3 +102,8 @@ Here's an example of a JSON document:
 ```
 As you can see, JSON is a relatively readable data format that clearly exposes its content. JSON is also relatively easy to parse and use in JavaScript applications.
 
+### What is Azure Cosmos DB for NoSQL?
+Azure Cosmos DB for NoSQL is a fast NoSQL and vector database service that offers rich querying over diverse data and supports a new generation of Generative AI applications. It helps deliver configurable and reliable performance, is globally distributed, and enables rapid development.
+
+
+![Document data model](../assets/images/2-azure-cosmos-db.png)
