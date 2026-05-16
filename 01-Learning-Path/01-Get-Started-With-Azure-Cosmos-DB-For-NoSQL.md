@@ -242,8 +242,8 @@ This example is similar to the example from the introduction of this module. To 
 
 After completing this module, you'll be able to:
 
-Create a new Azure Cosmos DB for NoSQL account
-Create database, container, and item resources for an Azure Cosmos DB for NoSQL account
+- Create a new Azure Cosmos DB for NoSQL account.
+- Create database, container, and item resources for an Azure Cosmos DB for NoSQL account.
  
 
 ### Explore resources
