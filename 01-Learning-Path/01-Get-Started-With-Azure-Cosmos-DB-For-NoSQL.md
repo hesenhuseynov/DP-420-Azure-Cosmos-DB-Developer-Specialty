@@ -204,5 +204,12 @@ As a fast NoSQL database with a flexible API and vector indexing and search capa
  
 ![Azure Cosmos DB components](../assets/images/4-ai-case.png)
 
+In this example, customers are taking transactional and operational data and vectorizing it to be used for vector search by multiple AI Agents serving customers. Azure Cosmos DB's Change Feed is used to handle ingestion and vectorization of new or updated data, making it available in near real-time for users. Customers interacting with these agents generate prompts and completions which are also stored as their chat history in Azure Comsos DB and used to provide a semantic cache for improved cost and performance.
+
+### Retail/marketing
+
+Azure Cosmos DB for NoSQL is a great fit for retail and marketing workloads that can experience dramatic and unexpected swings in usage at any point throughout the year. The elastic scale of Azure Cosmos DB for NoSQL ensures that the database platform can handle requests during peak usage, and save money during nonpeak times.
+
+![Azure Cosmos DB components](../assets/images/4-retail-case.png)
 
 
