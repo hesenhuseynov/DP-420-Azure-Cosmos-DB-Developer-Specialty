@@ -79,3 +79,26 @@ Moving forward, we focus on the data model supported by Azure Cosmos DB for NoSQ
 The document data model breaks data down into individual document entities. A document can be any structured data type, but JSON is commonly used as the data format. The Azure Cosmos DB for NoSQL supports JSON natively. 
 
 ![Document data model](../assets/images/2-document-db.png )
+
+A document is an atomic entity and can have its own data form, regardless of what is stored in other documents in the same database. Because of this flexibility, there's no need for a predefined schema making it easier to build new applications rapidly. Additionally, this flexibility enables scenarios where different types of data can be stored together and where models can evolve over the lifetime of an application.
+
+### What is a JSON document?
+
+JavaScript Object Notation, or JSON, is a lightweight data format. JSON was built to be highly compatible with the literal notation of an object in the JavaScript language. Many frameworks, browsers, and even databases support JavaScript natively making JSON a popular format for transmitting and storing data.
+
+Here's an example of a JSON document:
+
+```json
+{
+  "device": {
+    "type": "mobile"
+  },
+  "sentTime": "2019-11-12T13:08:42",
+  "spoolRefs": [
+    "6a86682c-be5a-4a4a-bacd-96c4d1c7ece6",
+    "79e78fe2-93aa-4688-89db-a7278b034aa6"
+  ]
+}
+```
+As you can see, JSON is a relatively readable data format that clearly exposes its content. JSON is also relatively easy to parse and use in JavaScript applications.
+
