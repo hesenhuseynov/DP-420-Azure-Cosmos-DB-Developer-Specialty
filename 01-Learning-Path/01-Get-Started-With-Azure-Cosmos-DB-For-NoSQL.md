@@ -189,13 +189,20 @@ Selecting a partition key path for a container is critical to allow applications
 
 
 ### When should you use Azure Cosmos DB for NoSQL
-### When should you use Azure Cosmos DB for NoSQL
 
-**Completed**  
-**100 XP**  
-**5 minutes**
 
 Azure Cosmos DB for NoSQL is a fully managed NoSQL database service for modern and AI app development. It provides guaranteed single-digit millisecond response times, 99.999-percent availability and [vector database capabilities](https://learn.microsoft.com/en-us/azure/cosmos-db/vector-database), backed by SLAs with automatic and instant scalability.
 
 For enterprise scenarios, Azure Cosmos DB for NoSQL has a comprehensive suite of financially backed [service level agreements (SLAs)](https://learn.microsoft.com/en-us/azure/cosmos-db/vector-database) that cover throughput, consistency, availability, and latency.
+
+###  Common use cases for the Azure Cosmos DB for NoSQL
+
+As a fast NoSQL database with a flexible API and vector indexing and search capabilities, Azure Cosmos DB for NoSQL is well suited for many types and sizes of applications. From the very small scale, to high-performance applications with global ambition. Speed and flexibility make Azure Cosmos DB for NoSQL great for Generative AI, web, retail, IoT, gaming, and mobile applications. Azure Cosmos DB for NoSQL is a good fit for applications that require flexibility, low cost, fast response times, and the ability to scale to massive volume or velocity.
+
+###  Generative AI
+ Generative AI applications can be diverse and unpredictable. These workloads require a database platform that is cost-efficient, responsive and scalable. Users can store vectors directly in their documents with traditional schema-free data and high-dimensional vectors as other properties. This colocation of data and vectors allows for efficient indexing and searching, as the vectors are stored in the same logical unit as the data they represent. Keeping vectors and data together simplifies data management, AI application architectures, and the efficiency of vector-based operations. 
+ 
+![Azure Cosmos DB components](../assets/images/ 4-ai-case.png)
+
+
 
