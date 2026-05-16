@@ -202,7 +202,7 @@ As a fast NoSQL database with a flexible API and vector indexing and search capa
 ###  Generative AI
  Generative AI applications can be diverse and unpredictable. These workloads require a database platform that is cost-efficient, responsive and scalable. Users can store vectors directly in their documents with traditional schema-free data and high-dimensional vectors as other properties. This colocation of data and vectors allows for efficient indexing and searching, as the vectors are stored in the same logical unit as the data they represent. Keeping vectors and data together simplifies data management, AI application architectures, and the efficiency of vector-based operations. 
  
-![Azure Cosmos DB components](../assets/images/ 4-ai-case.png)
+![Azure Cosmos DB components](../assets/images/4-ai-case.png)
 
 
 
