@@ -186,3 +186,16 @@ Every Azure Cosmos DB for NoSQL container is required to specify a partition key
 If your container specifies a partition key path of /department/name, then the partition key value of this document would be information-technology. Behind the scenes, Azure Cosmos DB for NoSQL automatically manages the physical resources necessary to support your data workload.
 
 Selecting a partition key path for a container is critical to allow applications to scale and is one of the most important design decisions for a new workload. Review the choosing a partition key documentation for a deeper technical explanation and best practices.
+
+
+### When should you use Azure Cosmos DB for NoSQL
+### When should you use Azure Cosmos DB for NoSQL
+
+**Completed**  
+**100 XP**  
+**5 minutes**
+
+Azure Cosmos DB for NoSQL is a fully managed NoSQL database service for modern and AI app development. It provides guaranteed single-digit millisecond response times, 99.999-percent availability and [vector database capabilities](https://learn.microsoft.com/en-us/azure/cosmos-db/vector-database), backed by SLAs with automatic and instant scalability.
+
+For enterprise scenarios, Azure Cosmos DB for NoSQL has a comprehensive suite of financially backed [service level agreements (SLAs)](https://learn.microsoft.com/en-us/azure/cosmos-db/vector-database) that cover throughput, consistency, availability, and latency.
+
