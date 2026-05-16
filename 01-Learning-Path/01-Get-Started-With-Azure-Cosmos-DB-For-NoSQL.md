@@ -256,4 +256,11 @@ An Azure Cosmos DB for NoSQL account is composed of a basic hierarchy of resourc
 
 
 ![Azure Cosmos DB components](../assets/images/2-hiearchy.png)
+Let's explore each item in this hierarchy.
+
+### Account
+Each tenant of the Azure Cosmos DB service is created by provisioning a database account. Accounts are the fundamental units of data distribution, high availability and security. At the account level, you can configure the region[s] for your data in Azure Cosmos DB for NoSQL. Accounts also contain the globally unique DNS name used for API requests
+![Azure Cosmos DB components](../assets/images/2-account.png)
+
+
 
