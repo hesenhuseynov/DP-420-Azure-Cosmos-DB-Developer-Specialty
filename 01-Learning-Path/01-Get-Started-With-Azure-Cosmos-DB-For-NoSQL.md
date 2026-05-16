@@ -235,3 +235,25 @@ One key part of your store's success is the ability for the company to notify us
 This example is similar to the example from the introduction of this module. To build on the first example, your team has decided to introduce Azure Cosmos DB for NoSQL as the database of choice. Now, your team can use Azure Synapse Link to prepare and aggregate data for deeper analysis using Azure Synapse Analytics. Your team can also use services such as Azure Functions to react to data events with Azure Cosmos DB, and then trigger an Azure Logic Apps workflow that sends notifications to mobile devices.
 
 
+ ### Try Azure Cosmos DB for NoSQL 
+
+ ### Introduction
+   The first step to getting started with Azure Cosmos DB is to create a new account. You will learn, here, the basic hierarchy of resources in an Azure Cosmos DB for NoSQL account and how   to create an account along with those resources.
+
+After completing this module, you'll be able to:
+
+Create a new Azure Cosmos DB for NoSQL account
+Create database, container, and item resources for an Azure Cosmos DB for NoSQL account
+ 
+
+### Explore resources
+An Azure Cosmos DB for NoSQL account is composed of a basic hierarchy of resources that include:
+
+- An account
+- One or more databases
+- One or more containers
+- Many items
+
+
+![Azure Cosmos DB components](../assets/images/2-hiearchy.png)
+
