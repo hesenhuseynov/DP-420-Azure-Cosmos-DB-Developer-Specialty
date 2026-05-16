@@ -134,3 +134,16 @@ Now that we know the basics of Azure Cosmos DB, let's see what resources and inf
  To begin using Azure Cosmos DB, you first create various resources in Azure such as accounts, databases, containers, and items.
 
 ![Azure Cosmos DB components](../assets/images/3-resource-hierarchy.png)
+
+### Accounts
+Accounts are the fundamental units of high availability and tenant isolation for SaaS applications. At the account level, you can configure the region[s] for your data in Azure Cosmos DB for NoSQL. Accounts also contain the globally unique DNS name used for API requests. You can also set the default consistency level for requests at the account level. You can manage or create accounts using the Azure portal, Azure Resource Manager templates, the Azure CLI, or Azure PowerShell.
+
+### Databases 
+Each account can contain one or more Databases. A database is a logical unit of management for containers in Azure Cosmos DB for NoSQL.
+
+### Containers
+Containers are the fundamental unit of scalability in Azure Cosmos DB for NoSQL. With Azure Cosmos DB, you provision throughput at the container level. You can also optionally configure an indexing policy or a default time-to-live value at the container level. Azure Cosmos DB for NoSQL will automatically and transparently partition the data in a container. 
+### Items 
+The NoSQL API for Azure Cosmos DB stores individual documents in JSON format as items within the container. Azure Cosmos DB for NoSQL natively supports JSON files and can provide fast and predictable performance because write operations on JSON documents are atomic.
+
+![Azure Cosmos DB components](../assets/images/3-item-hierarchy.png)
