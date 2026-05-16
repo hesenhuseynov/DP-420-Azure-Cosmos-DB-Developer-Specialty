@@ -212,4 +212,5 @@ Azure Cosmos DB for NoSQL is a great fit for retail and marketing workloads that
 
 ![Azure Cosmos DB components](../assets/images/4-retail-case.png)
 
+In this example, a JavaScript web application, built on content stored in Azure Blob Storage, uses Azure Cosmos DB for NoSQL as it's backing database. Multiple accounts are used to manage different facets of the solution such as the shopping cart, inventory, or catalog. The solution then uses Azure Search to index the Azure Cosmos DB for NoSQL data, providing a rich search experience to end users.
 
