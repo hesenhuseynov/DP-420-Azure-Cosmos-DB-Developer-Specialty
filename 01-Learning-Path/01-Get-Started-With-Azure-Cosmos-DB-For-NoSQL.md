@@ -147,3 +147,42 @@ Containers are the fundamental unit of scalability in Azure Cosmos DB for NoSQL.
 The NoSQL API for Azure Cosmos DB stores individual documents in JSON format as items within the container. Azure Cosmos DB for NoSQL natively supports JSON files and can provide fast and predictable performance because write operations on JSON documents are atomic.
 
 ![Azure Cosmos DB components](../assets/images/3-item-hierarchy.png)
+
+### Partitioning & Partition Keys
+Every Azure Cosmos DB for NoSQL container is required to specify a partition key path that is used to distribute data for scale out. Behind the scenes, Azure Cosmos DB for NoSQL uses this path to logically partition data using partition key values. For example, consider the following JSON document:
+
+```json
+{
+  "id": "35b5bf7d-5f0e-4209-b7cb-8c5c70c3bb59",
+  "deviceDisplayName": "shared-printer",
+  "acquiredYear": 2019,
+  "department": {
+    "name": "information-technology",
+    "metadata": {
+      "location": "floor-5-unit-27"
+    }
+  },
+  "queuedDocuments": [
+    {
+      "sender": "user-293749329",
+      "sentTime": "2019-07-26T05:12:37",
+      "pages": 5,
+      "spoolRef": "3f4b759c-3230-4269-a88e-de7620ad91c0"
+    },
+    {
+      "device": {
+        "type": "mobile"
+      },
+      "sentTime": "2019-11-12T13:08:42",
+      "spoolRefs": [
+        "6a86682c-be5a-4a4a-bacd-96c4d1c7ece6",
+        "79e78fe2-93aa-4688-89db-a7278b034aa6"
+      ]
+    }
+  ]
+}
+```
+
+If your container specifies a partition key path of /department/name, then the partition key value of this document would be information-technology. Behind the scenes, Azure Cosmos DB for NoSQL automatically manages the physical resources necessary to support your data workload.
+
+Selecting a partition key path for a container is critical to allow applications to scale and is one of the most important design decisions for a new workload. Review the choosing a partition key documentation for a deeper technical explanation and best practices.
