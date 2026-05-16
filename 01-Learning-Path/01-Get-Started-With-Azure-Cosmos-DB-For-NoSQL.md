@@ -256,11 +256,33 @@ An Azure Cosmos DB for NoSQL account is composed of a basic hierarchy of resourc
 
 
 ![Azure Cosmos DB components](../assets/images/2-hiearchy.png)
+
 Let's explore each item in this hierarchy.
 
 ### Account
 Each tenant of the Azure Cosmos DB service is created by provisioning a database account. Accounts are the fundamental units of data distribution, high availability and security. At the account level, you can configure the region[s] for your data in Azure Cosmos DB for NoSQL. Accounts also contain the globally unique DNS name used for API requests
+
 ![Azure Cosmos DB components](../assets/images/2-account.png)
+
+### Database 
+ A database is a logical unit of management for containers in Azure Cosmos DB for NoSQL. Within the database, you can find one or more containers.
+ 
+![Azure Cosmos DB components](../assets/images/2-database-diag.png)
+
+### Container
+Containers are the fundamental unit of scalability in Azure Cosmos DB for NoSQL. Typically, you provision throughput at the container level but can use Serverless as well. Azure Cosmos DB for NoSQL will automatically and transparently partition the data in a container using the document property you select as a partition key for the container. You can also optionally configure indexing policies or a default time-to-live value at the container level.
+
+![Azure Cosmos DB components](../assets/images/2-container-diag.png)
+
+### Item[s]
+
+An Azure Cosmos DB for NoSQL resource container is a schema-agnostic container of arbitrary user-generated JSON items. The NoSQL API for Azure Cosmos DB stores individual documents in JSON format as items within the container. Azure Cosmos DB for NoSQL natively supports JSON files and can provide fast and predictable performance because write operations on JSON documents are atomic.
+
+> [!TIP]
+> Containers can also store JavaScript based stored procedures, triggers and user-defined-functions (UDFs).
+
+![Azure Cosmos DB components](../assets/images/2-item.png)
+
 
 
 
