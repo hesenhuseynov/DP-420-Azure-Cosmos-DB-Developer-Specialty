@@ -126,3 +126,11 @@ These capabilities make Azure Cosmos DB ideally suited for modern application de
 - Are depended upon for business continuity
 
 The Azure Cosmos DB for NoSQL can store native JSON documents with flexible schema. Data is indexed automatically and is available for query using a flavor of the SQL query language designed for JSON data. The NoSQL API can be accessed using SDKs for popular frameworks such as .NET, Python, Java, Node.js and GO.
+
+### How does Azure Cosmos DB for NoSQL work
+Now that we know the basics of Azure Cosmos DB, let's see what resources and information are required to start working with an account. This information should help you decide whether Azure Cosmos DB for NoSQL works for your data set. Also, it should help you decide how much, if any, extra configuration is necessary.
+
+### What are the components of Azure Cosmos DB for NoSQL?
+ To begin using Azure Cosmos DB, you first create various resources in Azure such as accounts, databases, containers, and items.
+
+![Azure Cosmos DB components](../assets/images/3-resource-hierarchy.png)
