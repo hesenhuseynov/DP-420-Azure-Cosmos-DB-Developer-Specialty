@@ -185,7 +185,7 @@ Every Azure Cosmos DB for NoSQL container is required to specify a partition key
 
 If your container specifies a partition key path of /department/name, then the partition key value of this document would be information-technology. Behind the scenes, Azure Cosmos DB for NoSQL automatically manages the physical resources necessary to support your data workload.
 
-Selecting a partition key path for a container is critical to allow applications to scale and is one of the most important design decisions for a new workload. Review the choosing a partition key documentation for a deeper technical explanation and best practices.
+Selecting a partition key path for a container is critical to allow applications to scale and is one of the most important design decisions for a new workload. Review the [choosing a partition key](https://learn.microsoft.com/en-us/azure/cosmos-db/partitioning#choose-partitionkey) documentation for a deeper technical explanation and best practices.
 
 
 ### When should you use Azure Cosmos DB for NoSQL
