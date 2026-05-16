@@ -71,3 +71,11 @@ Generally, NoSQL databases don't enforce relational constraints or put locks on 
 While there are many NoSQL data models, four broad data model families are commonly used when modeling data in a NoSQL database:
 
 ![NoSQL data models](../assets/images/2-nosql-db.png)
+
+Moving forward, we focus on the data model supported by Azure Cosmos DB for NoSQL: The document data model.
+
+### Why use a NoSQL database with the document data model?
+
+The document data model breaks data down into individual document entities. A document can be any structured data type, but JSON is commonly used as the data format. The Azure Cosmos DB for NoSQL supports JSON natively. 
+
+![Document data model](../assets/images/2-document-db.png )
