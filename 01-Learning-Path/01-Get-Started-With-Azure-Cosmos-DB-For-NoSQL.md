@@ -219,3 +219,6 @@ Many modern social applications generate a plethora of user-generated content th
 
 ![Azure Cosmos DB components](../assets/images/4-web-case.png)
 
+In this example, a user is using a URL to access a web site in their browser. The URL points to Azure Traffic Manager, which then uses a built-in algorithm to determine which Azure App Service endpoint to redirect the user to. Since Azure Cosmos DB for NoSQL is capable of global distribution, you only need one account that is replicated across multiple regions.
+
+
