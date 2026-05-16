@@ -107,3 +107,22 @@ Azure Cosmos DB for NoSQL is a fast NoSQL and vector database service that offer
 
 
 ![Document data model](../assets/images/2-azure-cosmos-db.png)
+
+The NoSQL API is the core or native API for working with documents. The NoSQL API supports fast, flexible development utilizing JSON documents, a query language with a familiar syntax, and client libraries for popular programming languages. Azure Cosmos DB also provides unique capabilities such as vector indexing and search, allowing users to create a new breed of Generative AI applications over users' data that can rapidly scale efficiently.
+
+Azure Cosmos DB for NoSQL has a few advantages such as:
+
+- Industry Leading Vector Database with vector indexing and search designed to handle high-dimensional vectors, enabling efficient and accurate vector search at any scale.
+- Guaranteed speed at any scale even through bursts—with instant, limitless elasticity, fast reads, and multi-master writes, anywhere in the world.
+- Fast, flexible app development with SDKs for popular languages and frameworks such as .NET, Java, Python, JavaScript and GO, as well as no-ETL (extract, transform, load) analytics.
+- Ready for mission-critical applications with guaranteed business continuity, 99.999-percent availability, and enterprise-grade security.
+- Fully managed and cost-effective with a fully featured serverless offering as well as instant, automatic and dynamic scaling that responds to application needs.
+
+These capabilities make Azure Cosmos DB ideally suited for modern application development. Azure Cosmos DB for NoSQL is especially suited for applications that:
+
+- Experience unpredictable spikes and dips in traffic
+- Generate lots of data
+- Need to deliver real-time user experiences
+- Are depended upon for business continuity
+
+The Azure Cosmos DB for NoSQL can store native JSON documents with flexible schema. Data is indexed automatically and is available for query using a flavor of the SQL query language designed for JSON data. The NoSQL API can be accessed using SDKs for popular frameworks such as .NET, Python, Java, Node.js and GO.
