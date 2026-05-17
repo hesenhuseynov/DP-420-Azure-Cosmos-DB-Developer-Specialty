@@ -312,5 +312,46 @@ Databases are logical units of management in Azure Cosmos DB for NoSQL, and don'
 > [!NOTE]
 > However, if you choose to provision throughput at the database level, configuring the database may require additional steps. This is explored deeper in other Azure Cosmos DB for NoSQL topics.
 
+### Creating a new container
+Containers are the primary unit of scalability in Azure Cosmos DB for NoSQL. When creating a container, you should specify:
+ - The parent database
+ - A unique name for the container with the database
+ - The path for the partition key value
+ - Optional: provisioned throughput if not using a Serverless account.
+ The Azure Cosmos DB service will automatically and transparently partition your data based on the value of the partition key for each individual item.
+
+### Creating simple items
+Once the database and container resources exist, you are ready to create your first item. In Azure Cosmos DB for NoSQL, an item is a JSON document.
+> [!NOTE]
+> JavaScript Object Notation (JSON) is an open standard file format, and data interchange format, that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and array data types (or any other serializable value)
+
+JSON is a language-independent data format with well-defined data types and near universal support across a diverse range of services and programing languages. Here is an example of a JSON document that could be an item in an Azure Cosmos DB account:
+
+```json
+{
+  "id": "0012D555-C7DE",
+  "type": "customer",
+  "fullName": "Franklin Ye",
+  "title": null,
+  "emailAddress": "fye@cosmic.works",
+  "creationDate": "2014-02-05",
+  "addresses": [
+    {
+      "addressLine": "1796 Westbury Drive",
+      "cityStateZip": "Melton, VIC 3337 AU"
+    },
+    {
+      "addressLine": "9505 Hargate Court",
+      "cityStateZip": "Bellflower, CA 90706 US"
+    }
+  ],
+  "password": {
+    "hash": "GQF7qjEgMk=",
+    "salt": "12C0F5A5"
+  },
+  "salesOrderCount": 2
+}
+
+```
 
 
