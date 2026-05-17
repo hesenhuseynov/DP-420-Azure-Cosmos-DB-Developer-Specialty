@@ -354,4 +354,23 @@ JSON is a language-independent data format with well-defined data types and near
 
 ```
 
+### Exercise: Create an Azure Cosmos DB for NoSQL account
+
+### Set up environment
+
+> [!NOTE]
+> To complete this exercise, you will need a [Microsoft Azure subscription](BURAYA_SUBSCRIPTION_LINKINI_QOY) in which you have administrative access.
+
+To set up the lab environment for this exercise, sign into your Azure subscription and follow these instructions to provision your Azure resources:
+
+- [Create an Azure resource group for the lab](https://microsoftlearning.github.io/dp-420-cosmos-db-dev/instructions/00-create-resource-group.html)
+- [Set up your local lab environment](https://microsoftlearning.github.io/dp-420-cosmos-db-dev/instructions/00-setup-environment.html)
+- [Enable Azure resource providers](https://microsoftlearning.github.io/dp-420-cosmos-db-dev/instructions/00-update-resource-providers.html)
+
+### Complete the exercise
+
+Launch the exercise and follow the instructions.
+
+[Launch Exercise](https://microsoftlearning.github.io/dp-420-cosmos-db-dev/instructions/01-create-account.html)
+
 
