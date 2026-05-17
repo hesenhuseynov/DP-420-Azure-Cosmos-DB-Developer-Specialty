@@ -284,5 +284,33 @@ An Azure Cosmos DB for NoSQL resource container is a schema-agnostic container o
 ![Azure Cosmos DB components](../assets/images/2-item.png)
 
 
+ ### Review basic operations
+  There are a few basic operations that you will need to perform anytime you create any Azure Cosmos DB for NoSQL account resource in Azure.
+ ### Creating a new account
+The first step to getting started with Azure Cosmos DB is to create a new account.
+
+When creating a new account in the portal, you must first select an API for your workload. The API selection cannot be changed after the account is created. For the remainder of this section, we will assume that the NoSQL API has been selected.
+
+![Azure Cosmos DB components](../assets/images/3-select-api.png)
+
+
+Next, the Azure portal will use a step-by-step wizard with tabs for various configuration options. Here you can configure options such as:
+
+- The globally unique name of your account
+- The location (Azure region) for the account
+- Capacity mode (provisioned throughput or serverless)
+  
+![Azure Cosmos DB components](../assets/images/3-account-wizard.png)
+
+> [!NOTE]
+> Only the options in the **Basics** tab are required to create an Azure Cosmos DB account.
+
+### Creating a new database
+
+Databases are logical units of management in Azure Cosmos DB for NoSQL, and don't require much to create. You only need a unique database name within the account to create a new database.
+
+> [!NOTE]
+> However, if you choose to provision throughput at the database level, configuring the database may require additional steps. This is explored deeper in other Azure Cosmos DB for NoSQL topics.
+
 
 
